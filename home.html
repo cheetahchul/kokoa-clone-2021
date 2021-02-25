@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
-    <link
-      rel="shortcut icon"
-      sizes="16x16 32x32 64x64"
-      href="http://nomadcoders.co/m.png"
-    />
     <title>Home - My first website!</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="This is my website" />
   </head>
   <body>
-    <h1>Hello!</h1>
-    <h2><a href="http://google.com" target="_blank">Go to the Google!</a></h2>
+    <form>
+      <input type="file" accept=".pdf,.png" />
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="User Name" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="Submit" value="Create Account" />
+    </form>
   </body>
 </html>
