@@ -26,4 +26,6 @@
 
 .screen-header__icons {
   position: relative;
+  display: flex;
+  justify-content: center;
 }

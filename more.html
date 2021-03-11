@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - kokoa Clone</title>
+    <title>More - kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,71 +24,62 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-        <span class="find_point"></span>
+        <div>
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+        <div class="more_point"></div>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://resources.premierleague.com/photos/2020/09/07/67039a6c-3a5d-4e66-ba9c-fe5cfcd1db1d/GettyImages-1267679968.jpg?width=860&height=573"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Sonny</h4>
+            <h6 class="user-component__subtitle">+1-787 666 999</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i>
-          <span>QR Code</span>
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
         </div>
         <div class="icon-row__icon">
           <i class="far fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <span>Talk Drive</span>
         </div>
         <div class="icon-row__icon">
           <i class="fas fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <span>Emoticons</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fas fa-brush"></i>
+          <span>Themes</span>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4 class="open-chat__title">Open Chat</h4>
-          <span
-            >Go to Openchat home <i class="fas fa-chevron-right fa-xs"></i
-          ></span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__colunm">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-post__hashtags">#bts#army#friends</h6>
-            <div class="open-post_members">
-              <img
-                src="https://resources.premierleague.com/photos/2020/09/07/67039a6c-3a5d-4e66-ba9c-fe5cfcd1db1d/GettyImages-1267679968.jpg?width=860&height=573"
-              />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__memeber-status">Active</span>
-            </div>
-          </div>
-          <div class="open-post__colunm">
-            <div class="open-post__photo">
-              <img
-              src="https://resources.premierleague.com/photos/2020/09/07/67039a6c-3a5d-4e66-ba9c-fe5cfcd1db1d/GettyImages-1267679968.jpg?width=860&height=573"
-              " />
-              <div class="open-post__heart-count fa-xs">
-                <i class="fas fa-heart"></i><span>326</span>
-              </div>
-            </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">more-suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image"></div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
           </div>
         </div>
       </div>
     </main>
-
     <nav class="nav">
       <ul class="nav__list">
         <lu class="nav__btn"

@@ -10,7 +10,7 @@
   font-weight: 600;
 }
 
-.point {
+.find_point {
   background-color: red;
   display: flex;
   border-radius: 50%;
@@ -18,5 +18,16 @@
   height: 7px;
   position: absolute;
   left: 70px;
+  bottom: 18px;
+}
+
+.more_point {
+  background-color: red;
+  display: flex;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  left: 150px;
   bottom: 18px;
 }
