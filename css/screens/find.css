@@ -37,9 +37,9 @@
 .open-post__title {
   font-weight: 600;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .open-post__hashtags {
-  text-transform: uppercase;
   opacity: 0.6;
 }
 
