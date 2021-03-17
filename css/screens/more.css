@@ -36,14 +36,23 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  border: var(--main-border);
+  border-radius: 10px;
 }
 .more-suggestions__icon-image i {
   font-size: 32px;
-  color: white;
+  color: black;
+}
+
+.more-suggestions__icon-image img {
+  width: 80px;
+  height: 20px;
+}
+
+.more-suggestions__icon-text {
+  font-weight: bolder;
 }
