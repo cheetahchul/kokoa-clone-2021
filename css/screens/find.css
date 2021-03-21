@@ -10,7 +10,7 @@
 }
 
 .recommended-friends span {
-  margin: 100px 0px;
+  margin: 80px 0px;
   display: block;
   text-align: center;
   font-size: 18px;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   color: var(--gray);
-  margin-bottom: 25px;
+  margin: 7px 0px;
 }
 
 .open-chat__header span {
@@ -74,9 +74,11 @@
   position: relative;
 }
 .open-post__photo img {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 10px;
+  margin-top: 3px;
+  border: var(--main-border);
 }
 
 .open-post__heart-count {
@@ -87,8 +89,8 @@
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 4px;
+  right: 2px;
   font-size: 12px;
 }
 .open-post__heart-count span {
@@ -96,15 +98,15 @@
 }
 
 @keyframes heartBeat {
-  0%{
-    color:white;
+  0% {
+    color: white;
     transform: none;
   }
-  50%{
+  50% {
     color: tomato;
     transform: scale(1.5);
   }
-  100%{
+  100% {
     color: white;
     transform: none;
   }
@@ -112,6 +114,5 @@
 
 .open-post__heart-count:hover i {
   will-change: transform;
-animation: heartBeat 1s linear infinite;
-
+  animation: heartBeat 1s linear infinite;
 }
