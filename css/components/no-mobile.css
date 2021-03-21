@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: var(--yellow);
+  background-color: var(--cheetah);
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@
   top: 0;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 1200px) {
   #no-mobile {
     display: none;
   }

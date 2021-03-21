@@ -2,16 +2,6 @@
   margin-top: 35px;
 }
 
-.icon-row2 {
-  display: flex;
-  margin-top: 40px;
-}
-.icon-row__icon2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
 .more-suggestions {
   margin-top: 50px;
   border-top: var(--main-border);
@@ -24,18 +14,23 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
+.more-suggestions__icon-text {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,17 +38,6 @@
   border: var(--main-border);
   border-radius: 10px;
 }
-
-.instagram {
-  width: 55px;
-}
-.toss {
-  width: 60px;
-}
-.google {
-  width: 45px;
-}
-
-.more-suggestions__icon-text {
-  font-weight: bolder;
+.more-suggestions__icon-image img {
+  width: 70px;
 }
