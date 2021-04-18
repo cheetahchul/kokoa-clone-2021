@@ -11,8 +11,27 @@
   top: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
   #no-mobile {
+    display: none;
+  }
+}
+
+#no-mobile-chat {
+  position: absolute;
+  z-index: 99;
+  height: 120vh;
+  background-color: var(--cheetah);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  #no-mobile-chat {
     display: none;
   }
 }
